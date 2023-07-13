@@ -1,0 +1,14 @@
+.star_war_contenedor{
+    width: var(--ancho-util);
+    margin: 0 auto;
+    border: 0px solid black;
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:1024px) {
+    
+
+}

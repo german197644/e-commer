@@ -1,0 +1,5 @@
+.consola_nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

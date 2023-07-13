@@ -1,0 +1,24 @@
+.banner_texto_info {
+    width: 100%;
+    position: absolute;
+    bottom: 35%;
+    left: 3%;
+    color: var(--secundary-color);
+    font-family: var(---font-family);
+    font-size: .8rem;
+    /*word-wrap: break-word;*/
+}
+
+@media screen and (min-width:768px) {
+    .banner_texto_info {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .banner_texto_info {        
+        bottom: 25%;
+    }
+
+}

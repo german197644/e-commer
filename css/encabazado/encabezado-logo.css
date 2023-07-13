@@ -1,0 +1,13 @@
+.encabezado_logo {
+    /*width: 35%;    */
+    order: 1;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;    
+}
+
+.logo {
+    width: 100%;
+    max-width: 160px;    
+    height: auto;    
+}

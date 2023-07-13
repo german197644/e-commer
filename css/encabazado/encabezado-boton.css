@@ -1,0 +1,25 @@
+.encabezado_boton {    
+    order: 2;
+}
+
+.boton {
+    padding: .6rem 1.5rem;
+    border: 1px solid var(--primary-color);
+    border-color: var(--primary-color);
+    color: black;
+    object-fit: cover;
+    border-radius: 3px;    
+}
+
+.boton:hover{
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px) {
+    .encabezado_boton {
+        order: 4;
+    }
+}    

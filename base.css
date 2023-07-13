@@ -1,0 +1,92 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --font-family-2: Verdana, Geneva, Tahoma, sans-serif;
+    --font-family-logo: "Pacifico", cursive;
+
+    --font-input: 300;
+
+    --font-size-logo: 28px;
+    --font-size-card-title: 28px;
+    --font-size-input-label: 20px;
+    --font-size-button: 22px;
+    --font-size-form-fieldset: 22px;
+    --font-size-table-header: 22px;
+    --font-size-modal-title: 28px;
+    --font-size-modal-button: 28px;
+
+    --primary-color: #0071ea;
+    --secundary-color: #d6eaff;
+    --tercer-color: #55a6ff38;
+    --cuarto-color: #3498db; 
+    --quinto-color: #2980b9;
+    
+    --contrast-dark-color: #4d4d4d;
+    --contrast-ligth-color: #fff;
+    --info-color: #df2525;
+    --sucess-color: #047900;
+    --transparency-color: #4d4d4d33;
+    
+    --shadow: 0 5px 10px #55a6ff38;
+
+    --ancho-util: 90%;
+    --ancho-total: 100%;
+
+    --ancho_btn: 3rem;
+}
+
+
+.container_principal {    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;    
+}
+
+.vertodo {
+    font-size: .8rem;
+    color: var(--primary-color);
+    margin-right: .5rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.flecha {
+    margin-right: 1rem;
+}
+
+.producto_texto {
+    margin: 0;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .9rem;
+    color: gray;
+    padding-top: .3rem;
+    
+}
+
+.producto_precio {
+    margin: 0;
+    padding-top: .3rem 0;
+    color: #464646;    
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;    
+    font-weight: bold;    
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.producto_info {
+    font-size: .8rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+.footer{
+    width: var(--ancho_total);
+    margin: 0 auto;
+    padding: 0;
+    background-color: beige;
+    color: antiquewhite;    
+}
+

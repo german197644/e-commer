@@ -1,0 +1,41 @@
+.encabezado_busqueda{
+    order: 3;    
+}
+
+.encabezado_input {    
+    display: none;    
+}
+
+
+@media screen and (min-width:768px) {
+    .encabezado_busqueda{
+        order: 2;
+    }
+    .encabezado_input {
+        border-radius: 8px;        
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        padding: .5rem .5rem .5rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Este elemento debe tener "position: relative" */
+    #div-busqueda {
+        /*max-width: 100%;*/
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    /* El icono debe ser "position: absolute"
+    * Ademas le damos un "display: block" y lo posicionamos */
+    #icon {
+        position: absolute;
+        /*display: block;*/
+        bottom: .55rem;
+        left: .3rem;
+        user-select: none;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,25 @@
+/* mobile first */
+.consola_box {
+    width: 50%;
+    padding: .5rem;    
+    box-sizing: border-box;
+}
+
+.consola_box--novisible {
+    display: none;
+}
+
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:1024px) {
+    .consola_box {
+        width: 33%;
+        height: auto;
+    }
+    .consola_box--novisible {
+        display: block;
+    }
+}

@@ -1,0 +1,6 @@
+.star_war_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}

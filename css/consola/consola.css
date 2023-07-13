@@ -1,0 +1,4 @@
+.consola {
+    width: var(--ancho-total);    
+    background-color: var(--secundary-color);
+}

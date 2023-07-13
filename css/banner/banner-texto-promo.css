@@ -1,0 +1,24 @@
+.banner_texto_promo{    
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    left: 3%;
+    color: var(--secundary-color);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media screen and (min-width:768px) {
+    .banner_texto_promo {
+        font-size: 3.5rem;        
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .banner_texto_promo {        
+        bottom: 35%;
+    }
+
+}

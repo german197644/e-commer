@@ -1,0 +1,6 @@
+.star_war {
+    width: var(--ancho-total);
+    background-color: beige;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

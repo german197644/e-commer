@@ -1,0 +1,15 @@
+.footer_text {    
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .7rem;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+
+@media screen and (min-width:768px) {
+    .footer_text {
+        font-size: 1rem;
+    }
+
+}

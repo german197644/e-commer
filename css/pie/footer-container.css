@@ -1,0 +1,5 @@
+.footer_container{
+    width: var(--ancho-util);
+    margin: 0 auto;
+    background-color: var(--contrast-dark-color);
+}

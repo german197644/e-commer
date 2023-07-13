@@ -1,0 +1,32 @@
+.star_war_box {
+    display: flex;
+    /*width: auto;    */
+    width: 45%;
+    max-width: 230px;
+    height: auto;
+    flex-direction: column;
+    padding: .5rem;
+    /*box-sizing: border-box;*/
+    /*overflow: hidden;*/
+}
+
+.star_war_box--novisible{
+    display: none;
+}  
+
+/*
+@supports(object-fit: cover){
+    .box img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}*/
+
+@media screen and (min-width:1024px) {
+    .star_war_box--novisible{
+        display: block;
+    }    
+}
+
+

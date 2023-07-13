@@ -1,0 +1,15 @@
+.banner_contenedor {
+    display: block;
+    width: var(--ancho-util);
+    height: 40vw;
+    margin: 1rem auto;
+    position: relative;    
+    box-sizing: border-box;    
+}
+
+@media screen and (min-width:768px) {
+    .banner_contenedor {
+        height: 30vw;
+    }
+    
+}

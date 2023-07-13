@@ -1,0 +1,23 @@
+.star_war_img {            
+    /*box-sizing: border-box;
+    width: auto;
+    max-width: 120px;
+    height: auto;
+    max-height: 140px;
+    overflow: hidden;*/
+
+    /* nuevo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+}
+
+.star_war_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;     
+}
+
