@@ -1,0 +1,7 @@
+.rodapie_container{
+    display: flex;
+    width: var(--ancho-util);    
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}

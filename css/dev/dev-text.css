@@ -1,4 +1,4 @@
-.footer_text {    
+.dev_text {    
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .7rem;
@@ -8,7 +8,7 @@
 
 
 @media screen and (min-width:768px) {
-    .footer_text {
+    .dev_text {
         font-size: 1rem;
     }
 

@@ -1,0 +1,4 @@
+.diversos_contenedor {
+    width: var(--ancho-util);
+    margin: 1rem auto;
+}

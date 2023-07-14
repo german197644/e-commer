@@ -1,0 +1,5 @@
+.diversos {
+    width: var(--ancho-total);
+    background-color: var(--sexto-color);    
+    margin: 0 auto;
+}

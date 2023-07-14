@@ -1,0 +1,9 @@
+.rodapie_interes_link {
+    font-family: var(--font-family);
+    font-size: 1.15rem;
+    font-weight: bold;
+    word-spacing: .3rem;
+    text-decoration: none;
+    color: gray;
+    padding: 3px;
+}

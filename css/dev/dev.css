@@ -1,7 +1,7 @@
-.footer{
+.dev{
     width: var(--ancho_total);
     margin: 0 auto;
-    padding: 0;
+    padding: 1rem 0;
     background-color: beige;
     color: antiquewhite;    
 }

@@ -1,0 +1,6 @@
+.rodapie {
+    width: var(--ancho-total);
+    margin: 1rem auto;
+    padding: 1rem 0;
+    background-color: azure;
+}

@@ -1,0 +1,7 @@
+.rodapie_formulario {
+    display: flex;    
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 40%;
+    box-sizing: border-box;
+}
