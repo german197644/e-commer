@@ -9,5 +9,6 @@
 .logo {
     width: 100%;
     max-width: 160px;    
-    height: auto;    
+    height: auto;
+    cursor: pointer;
 }
