@@ -1,0 +1,9 @@
+.new_art_msg {
+    width: 100%;
+    padding: .5rem .8rem;
+    resize: none;
+    margin: .5rem auto;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}

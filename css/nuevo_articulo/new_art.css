@@ -1,0 +1,7 @@
+.new_art {
+    width: var(--ancho-total);
+    background-color: var(--septimo-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

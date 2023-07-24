@@ -1,0 +1,12 @@
+.articulos_nav_btn {
+    padding: .5rem .8rem;
+    background-color: var(--primary-color);
+    border: 1px solid black;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.articulos_nav_btn:hover {
+    color: white;
+    border-color: gainsboro;
+}

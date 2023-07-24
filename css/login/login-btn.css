@@ -1,0 +1,10 @@
+.login_btn {
+    border: 1px solid var(-quinto-color);
+    background-color: var(--cuarto-color);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    cursor: pointer;    
+    padding: .5rem 1rem;
+    width: fit-content;
+    margin-top: .5rem;
+}

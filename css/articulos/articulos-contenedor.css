@@ -1,0 +1,5 @@
+.articulos_contenedor {
+    width: var(--ancho-util);
+    margin: 1rem auto;
+    padding: 1rem 0;
+}

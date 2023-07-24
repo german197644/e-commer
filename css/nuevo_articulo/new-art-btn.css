@@ -1,0 +1,9 @@
+.new_art_btn {
+    width: 100%;
+    background-color: var(--quinto-color);
+    border: 1px solir var(--quinto-color);
+    padding: .5rem .8rem;
+    margin: .5rem auto;
+    box-sizing: border-box;
+    cursor: pointer;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Commerce Alura</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- estilos-->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="base.css">
+
+    <!-- encabezado-->
+    <link rel="stylesheet" href="css/encabazado/encabezado.css">
+    <link rel="stylesheet" href="css/encabazado/encabezado-logo.css">
+    <link rel="stylesheet" href="css/encabazado/encabezado-busqueda.css">
+    <!--<link rel="stylesheet" href="css/encabazado/encabezado-boton.css">-->
+
+    <!-- login -->
+    <link rel="stylesheet" href="css/login/login.css">
+    <link rel="stylesheet" href="css/login/login-container.css">
+    <link rel="stylesheet" href="css/login/login-box.css">
+    <link rel="stylesheet" href="css/login/login-titulo.css">
+    <link rel="stylesheet" href="css/login/login-texto.css">
+    <link rel="stylesheet" href="css/login/login-btn.css">
+
+    <!-- rodapie -->
+    <link rel="stylesheet" href="css/rodapie/rodapie.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-container.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-container-left.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-interes.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-interes-link.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-contacto.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-form.css">
+    <link rel="stylesheet" href="css/rodapie/formulario.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-form-titulo.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-logo.css">
+
+
+    <!--dev-->
+    <link rel="stylesheet" href="css/dev/dev.css">
+    <link rel="stylesheet" href="css/dev/dev-container.css">
+    <link rel="stylesheet" href="css/dev/dev-text.css">
+
+</head>
+
+<body>
+    <div class="container_principal">
+
+        <head>
+            <section class="encabezado">
+                <div class="encabezado_logo">
+                    <img class="logo" src="img/Logo.png" alt="Alura logo">
+                </div>
+                <div class="encabezado_busqueda">
+                    <div id="div-busqueda">
+                        <input class="encabezado_input" type="search" placeholder="¿Qué desea buscar?">
+                        <span id="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </div>
+                </div>
+                <!--
+                <div class="encabezado_boton">
+                    <input class="boton" type="button" value="Login">
+                </div>
+                -->
+            </section>
+        </head>
+
+        <main>
+
+            <section class="login">
+                <div class="login_container">
+                    <div class="login_box">
+                        <p class="login_titulo">Iniciar Sesion</p>
+                        <input class="login_texto" type="email" name="email" id="email" placeholder="Escriba su correo electrónico" autocomplete="off" data-email>
+                        <input class="login_texto" type="password" name="pass" id="pass" placeholder="Escriba su contraseña" autocomplete="off" data-pass>
+                        <input class="login_btn" type="button" value="Entrar" data-btn>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <section class="rodapie">
+                <div class="rodapie_container">
+                    <div class="rodapie_container_left">
+                        <div class="rodapie_logo">
+                            <img src="img/Logo.png" alt="Logo de la empresa.">
+                        </div>
+                        <div class="rodapie_interes">
+                            <a class="rodapie_interes_link" href="">Quienes somos</a>
+                            <a class="rodapie_interes_link" href="">Política de privacidad</a>
+                            <a class="rodapie_interes_link" href="">Programa de fidelidad</a>
+                            <a class="rodapie_interes_link" href="">Nuestra tienda</a>
+                            <a class="rodapie_interes_link" href="">Quiero ser franquiciado</a>
+                            <a class="rodapie_interes_link" href="">Anúncie aquí</a>
+                        </div>
+                    </div>
+
+                    <div class="rodapie_form">
+                        <p class="rodapie_form_titulo">Hable con nosotros</p>
+                        <form class="formulario" action="" method="post">
+                            <label for="nombre" id="nombre">Nombre (*)</label>
+                            <input class="rodapie_form_cajatxt" type="text" name="nombre" placeholder="nombre"
+                                data-nombre required>
+                            <label for="mensaje">Mensaje (*)</label>
+                            <textarea name="mensaje" id="" cols="30" rows="5" placeholder="Escribí tu mensaje"
+                                data-mensaje required></textarea>
+                            <input class="rodapie_form_btn" type="button" value="Enviar Mensaje">
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="dev"> <!-- reemplazar footer por dev-->
+                <div class="dev_container">
+                    <p class="dev_text">Desarrollado por Pogliani German D.</p>
+                    <p class="dev_text">2023</p>
+                </div>
+            </section>
+        </footer>
+    </div>
+    <script src="servicios.js" defer></script>
+</body>
+
+</html>

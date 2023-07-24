@@ -23,6 +23,15 @@
     <link rel="stylesheet" href="css/encabazado/encabezado-busqueda.css">
     <link rel="stylesheet" href="css/encabazado/encabezado-boton.css">
 
+    <!-- login -->
+    <link rel="stylesheet" href="css/login/login.css">
+    <link rel="stylesheet" href="css/login/login-container.css">
+    <link rel="stylesheet" href="css/login/login-box.css">
+    <link rel="stylesheet" href="css/login/login-titulo.css">
+    <link rel="stylesheet" href="css/login/login-texto.css">
+    <link rel="stylesheet" href="css/login/login-btn.css">
+
+
     <!-- banner -->
     <link rel="stylesheet" href="css/banner/banner-contenedor.css">
     <link rel="stylesheet" href="css/banner/banner-img.css">
@@ -66,9 +75,10 @@
     <link rel="stylesheet" href="css/rodapie/rodapie-interes.css">
     <link rel="stylesheet" href="css/rodapie/rodapie-interes-link.css">
     <link rel="stylesheet" href="css/rodapie/rodapie-contacto.css">
-    <link rel="stylesheet" href="css/rodapie/rodapie-formulario.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-form.css">
     <link rel="stylesheet" href="css/rodapie/formulario.css">
-    <link rel="stylesheet" href="css/rodapie/rodapie-logo.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-form-titulo.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie-logo.css">    
 
 
     <!--dev-->
@@ -95,13 +105,24 @@
                     </div>
                 </div>
                 <div class="encabezado_boton">
-                    <input class="boton" type="button" value="Login">
+                    <input class="boton" type="button" value="Login" onclick="location.href='login.html'">
                 </div>
             </section>
         </head>
 
         <main>
-
+            <!--
+            <section class="login">
+                <div class="login_container">
+                    <div class="login_box">
+                        <p class="login_titulo">Iniciar Sesion</p>
+                        <input class="login_texto" type="email" name="email" id="email" placeholder="Escriba su correo electrónico" data-email>
+                        <input class="login_texto" type="password" name="pass" id="pass" placeholder="Escriba su contraseña" data-pass>
+                        <input class="login_btn" type="button" value="Entrar" data-btn>
+                    </div>
+                </div>
+            </section>
+            -->
 
             <section class="banner_contenedor">
                 <img class="banner_img" src="img/banner-image.png" alt="Banner informativo">
@@ -334,14 +355,15 @@
                         </div>
                     </div>
 
-                    <div class="rodapie_formulario">
+                    <div class="rodapie_form">
+                        <p class="rodapie_form_titulo">Hable con nosotros</p>
                         <form class="formulario" action="" method="post">
-                            <label for="nombre" id="nombre">Nombre</label>
-                            <input type="text" name="nombre" placeholder="nombre" data-nombre>
-                            <label for="mensaje">Mensaje</label>
+                            <label for="nombre" id="nombre">Nombre (*)</label>
+                            <input class="rodapie_form_cajatxt" type="text" name="nombre" placeholder="nombre" data-nombre required>
+                            <label for="mensaje">Mensaje (*)</label>
                             <textarea name="mensaje" id="" cols="30" rows="5" placeholder="Escribí tu mensaje"
-                                data-mensaje></textarea>
-                            <input type="button" value="Enviar Mensaje">
+                                data-mensaje required></textarea>
+                            <input class="rodapie_form_btn" type="button" value="Enviar Mensaje">
                         </form>
                     </div>
 

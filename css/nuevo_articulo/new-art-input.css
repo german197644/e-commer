@@ -1,0 +1,8 @@
+.new_art_input {
+    width: 100%;
+    padding: .5rem .8rem;
+    margin: .5rem auto;
+    border: none;    
+    box-sizing: border-box;
+    outline: none;
+}

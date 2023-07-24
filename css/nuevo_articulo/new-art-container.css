@@ -1,0 +1,8 @@
+.new_art_container {
+
+    width: var(--ancho-util);    
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

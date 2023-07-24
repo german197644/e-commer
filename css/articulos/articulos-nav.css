@@ -1,0 +1,13 @@
+.articulos_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+}
+
+@media screen and (min-width:768px) {
+    .articulos_nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

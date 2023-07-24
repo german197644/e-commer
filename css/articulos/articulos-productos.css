@@ -1,0 +1,10 @@
+.articulos_productos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+
+

@@ -1,7 +1,17 @@
 .rodapie_container{
+    width: 100%;
     display: flex;
     width: var(--ancho-util);    
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+@media screen and (min-width:768px) {
+    .rodapie_container{        
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+

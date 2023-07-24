@@ -1,0 +1,5 @@
+.login {
+    width: var(--ancho-total);
+    background-color: var(--septimo-color);
+    padding: 1rem 0;
+}
